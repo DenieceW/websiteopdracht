@@ -1,0 +1,147 @@
+* {   
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-logo{
+    padding-left: 10px;
+}
+.logo-first {
+    font-family:'Roboto', sans-serif;
+    display: block;
+    font-size: 24px;
+    font-weight: 800;
+    color: cadetblue;
+    
+}
+
+
+
+.logo-second {
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+}
+nav {
+    padding: 20px 0;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list-item{
+    display: inline-flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin-left: 70px;
+    margin-right: 50px;
+    
+}
+
+.htmllogo, .csslogo,.jslogo{
+    max-width: 100px;
+    max-height: 80px;
+}
+
+.htmllogo:hover{
+    max-width: 150px;
+    max-height: 130px;
+}
+
+.csslogo:hover{
+    max-width: 150px;
+    max-height: 130px;
+}
+
+.jslogo:hover{
+    max-width: 150px;
+    max-height: 130px;
+}
+
+
+.jsstuk{
+    padding:20px;
+    background-color: #f0db4f;
+}
+
+.jsstuk:hover{
+    border-style: solid;
+    border-color: lavenderblush;
+
+
+}
+
+.jstitel,.gebruik,.opmaak{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 50px;
+    display: inline;
+    padding: 30px;
+    padding-bottom: 20px;
+    color: white;
+}
+.jstitel:hover{
+    color: black;     
+}
+
+.gebruik:hover{
+    color: black;
+}
+
+.opmaak:hover{
+    color: black;
+}
+
+p{
+    font-size: 15px;
+    font-family:'MuseoModerno', cursive;
+    color: #323330;
+}
+
+.alinea{
+    display: inline;
+    padding: 30px;
+}
+
+.jsgebruik{  
+padding:20px;
+    background-color: #f0db4f; 
+}
+.jsgebruik:hover{
+ border-style: solid;
+ border-color: lavenderblush; 
+}
+
+.jsopmaak{
+    padding:20px;
+    background-color:#f0db4f;
+}
+
+.jsopmaak:hover{
+    border-style: solid;
+    border-color: lavenderblush;
+}
+
+
+footer{
+    font-family: 'MuseoModerno', cursive;
+    background-color: lavenderblush;
+    padding: 20px;
+}
+  /*methode van w3schools voor 3 columns*/
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
